@@ -1,0 +1,7 @@
+[core]
+    remote = accminio
+['remote "accminio"']
+    url = s3://dvc
+    endpointurl = http://10.96.1.12:9000
+    access_key_id = minio
+    secret_access_key = minio123
